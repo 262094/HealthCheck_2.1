@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/ph"/>
+    <qresource prefix="/">
+        <file>sport.png</file>
+    </qresource>
+</RCC>

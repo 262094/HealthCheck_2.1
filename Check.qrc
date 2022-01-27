@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/ch">
+        <file>grafiki/Actions-document-save-as-icon.png</file>
+        <file>grafiki/Actions-document-save-icon.png</file>
+        <file>grafiki/cut-icon.png</file>
+        <file>grafiki/Editing-Copy-icon.png</file>
+        <file>grafiki/Editing-Paste-icon.png</file>
+        <file>grafiki/File-New-icon.png</file>
+        <file>grafiki/open-file-icon.png</file>
+        <file>grafiki/Redo-icon.png</file>
+        <file>grafiki/Undo-icon.png</file>
+        <file>grafiki/1723673.png</file>
+    </qresource>
+</RCC>
