@@ -20,6 +20,7 @@ Diet::~Diet()
 void Diet::on_pushButton_back_to_menu_clicked()
 {
     emit HomeClicked();
+    ui -> textEdit -> clear();
 }
 
 void Diet::on_pushButton_open_the_diet_clicked()

@@ -18,6 +18,9 @@ Kcal::~Kcal()
 void Kcal::on_pushButton_back_to_menu_clicked()
 {
      emit HomeClicked();
+     ui->lineEdit->clear();
+      ui->lineEdit_2->clear();
+       ui->lineEdit_3->clear();
 }
 
 

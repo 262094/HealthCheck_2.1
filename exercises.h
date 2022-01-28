@@ -45,7 +45,7 @@ private slots:
 
 private:
     Ui::Exercises *ui;
-    QUrl commandLineUrlArgument();
+  //  QUrl commandLineUrlArgument();
     QString myUrl = "https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2019/03/sundried-legs-workout.jpg?itok=m3gtXnUf";
     QString myUrl2 = "https://darebee.com/images/workouts/express-abs-workout.jpg";
     QString myUrl3 = "https://i.pinimg.com/originals/eb/bd/cc/ebbdcc88e7d8c6ea4a29176c73e3e9e4.jpg";

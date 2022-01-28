@@ -101,6 +101,7 @@ void HealtCheck::on_pushButton_athlets_clicked()
 void HealtCheck::on_pushButton_back_to_menu_clicked()
 {
      ui->stackedWidget->setCurrentIndex(7);
+     ui -> textEdit -> clear();
 
 }
 
@@ -122,9 +123,9 @@ void HealtCheck::on_actionNew_triggered()
     while(qry.next())
     {
     float bmi, whr, kcal;
-    bmi=round(qry.value(5).toFloat());
+    bmi=qry.value(5).toFloat();
     whr=qry.value(4).toFloat();
-    kcal=round(qry.value(3).toFloat());
+    kcal=qry.value(3).toFloat();
     qDebug() << bmi << whr << kcal;
 
     QString bmi1, whr1, kcal1;
@@ -313,7 +314,7 @@ void HealtCheck::on_pushButton_registery_clicked()
          QString usernamedb=qry.value(1).toString();
          if(username==usernamedb)
          {
-              QMessageBox::warning(this,"Warning", "User already exists");
+              QMessageBox::warning(this,"Warning", "User already exists, please choose another username");
               check=false;
          }
 

@@ -68,7 +68,7 @@ liczeniekcal:: liczeniekcal(QString gender, QString activity, float height, floa
         }
         qry.prepare("update users set kcal=:kcal where id=:id");
         qry.bindValue(":id", index);
-        qry.bindValue(":kcal",  round(kcal));
+        qry.bindValue(":kcal", kcal);
         qry.exec();
     }
 
@@ -117,7 +117,7 @@ liczeniekcal:: liczeniekcal(QString gender, QString activity, float height, floa
 
         qry.prepare("update users set kcal=:kcal where id=:id");
         qry.bindValue(":id", index);
-        qry.bindValue(":kcal",  round(kcal));
+        qry.bindValue(":kcal",  kcal);
         qry.exec();
     }
 
