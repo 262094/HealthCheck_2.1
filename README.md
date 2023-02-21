@@ -1,6 +1,6 @@
 # HealthCheck_2.1
 
-First repository Utworzona aplikacja zawierac ma byc:  
+Utworzona aplikacja zawierac ma:  
 *1 usprawnienie działania aplikacji (usystematyzowanie przejrzystosci aplikacji(kodu) klasy funkcji przywolywane do klasy wykonawczej    
 *2 aktualizacja danych dla danego uzytkownika w bazie danych  
 *3 okna z cwiczeniami (opis cwiczeni + ew. zilustowanie)  webscraping  
